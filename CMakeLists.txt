@@ -15,7 +15,7 @@ project(mbed-cmake-test-project LANGUAGES NONE)
 # recurse to subdirectories
 # -------------------------------------------------------------
 
-add_mbed_executable(hello_world HelloWorld.cpp)
+add_mbed_executable(native Native.cpp)
 
 # build report
 # -------------------------------------------------------------
